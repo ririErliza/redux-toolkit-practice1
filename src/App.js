@@ -1,14 +1,13 @@
 
-import './App.css';
+import Counter from "./features/counter/Counter";
 
 function App() {
   return (
-    <div >
-      <header >
-        <h1>Hello World</h1>
+    <main className="App">
+      <Counter/>
 
-      </header>
-    </div>
+    </main>
+
   );
 }
 
